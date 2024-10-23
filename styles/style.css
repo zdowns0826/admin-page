@@ -1,0 +1,168 @@
+.container text-center {
+    display: grid;
+}
+.row {
+    padding-left: 0em;
+    display: grid;
+    grid-template-columns: 15em 20em 30em 25em 15em;
+    grid-template-rows: 4em 7em 15em 15em 15em;
+    /* grid-gap: 1%; */
+}
+.col-0 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    margin-inline-start: 0em;
+    background-color: black;
+    height: 100em;
+    width: 15em;
+}
+#me {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 75px;
+    margin-left: 33%;
+    margin-bottom: 1em;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: black;
+    border: 2px solid slategray;
+    background-color: slategray
+}
+.nav-link:visited {
+    color: white;
+}
+.col-10 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: row;
+     border-bottom: 1px solid gray;
+     box-shadow: inset;
+     width: 100em;
+     height: 4em;
+     padding-left: 0em;
+}
+.btn-secondary {
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    margin-top: 1em;
+}
+.settings {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.four-square {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.heading {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end:  span 1;
+}
+#customers {
+    /* margin-left: 5em; */
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    height: 15em;
+    width: 20em;
+    border: 2px solid black;
+}
+#projects {
+    /* margin-left: 5em; */
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    height: 15em;
+    width: 20em;
+    border: 2px solid black;
+}
+.col-sm-7 {
+    grid-column-start: 3;
+    grid-column-end: span 3;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    height: 30em;
+    width: 95em;
+    border: 2px solid black;
+}
+#recent-activity {
+    /* margin-left: 5em; */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    height: 15em;
+    width: 50em;
+    border: 2px solid black;
+}
+#traffic-sources {
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    height: 15em;
+    width: 25em;
+    border: 2px solid black;
+}
+#overall-rating {
+    grid-column-start: 5;
+    grid-column-end: span 1;
+    grid-row-start: 5;
+    grid-row-end: span 2;
+    height: 30em;
+    width: 20em;
+    border: 2px solid black;
+}
+#room-type {
+    /* margin-left: 5em; */
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    grid-row-start: 6;
+    grid-row-end: span 1;
+    height: 15em;
+    width: 75em;
+    border: 2px solid black;
+}
+#stars {
+    width: 10em;
+    height: 5em;
+}
+#lr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#kitchen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#br {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#closet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box {
+    border: 1px solid white inherit;
+    width: 10em;
+}
